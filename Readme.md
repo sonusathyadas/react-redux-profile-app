@@ -11,6 +11,7 @@ dotnet build
 dotnet run
 ```
 
+
 ### Run React client application
 To run the React SPA application, you need to run the following commands.
 ```
@@ -18,4 +19,7 @@ cd profile-spa
 npm install
 npm start
 ```
+> [!IMPORTANT]
+> In the `Profile-Spa` client application, you may need to update the backend http REST url to the localhost URL while testing with local Api server. Update the URLs in the `src\actions\profile-actions.js` file.
+
 
